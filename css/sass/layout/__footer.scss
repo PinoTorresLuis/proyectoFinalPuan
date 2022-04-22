@@ -1,0 +1,193 @@
+.container-footer {
+    border-top: 5px solid #586a7a;
+    width: 100%;
+    background-color: white;
+   
+
+    .footer-titulo {
+        padding: 0.62rem;
+        font-size: 1.3em;
+        font-weight: 650;
+        color: #65a8a4;
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.973);
+    }
+
+    .items-footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+      
+    }
+
+    .item-footer{
+
+        background-color: white;
+        padding: 0.62rem;
+        margin: 0.62rem;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        overflow: hidden;
+        transition: all .25s;
+        width: 100%;
+        
+    }
+
+    .item-footer-xs{
+            background-color: white;
+            padding: 0.62rem;
+            margin: 0.62rem;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            overflow: hidden;
+            transition: all .25s;
+            width: 100%;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+    }
+
+    .icono-footer{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.62rem;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icono-footer-mercadopago{
+        width: 4.4rem;
+        height: 4.4rem;
+        margin: 0.62rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-texto {
+        font-weight: 550;
+        padding: 0.12rem;
+        font-size: 1em;
+        text-transform: uppercase;
+        color:#000000;
+        text-shadow: 1px 1px 1px rgba(163, 163, 163, 0.74);
+
+    }
+
+}
+.footer-subtitulo{
+    color: #586a7a;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 750;
+}
+
+
+//MEDIA QUERIES FOOTER
+
+@media (max-width:1041px){
+
+    .container-footer {
+        border-top: 5px solid #586a7a;
+        width: 100%;
+        height: auto;
+    
+
+        .items-footer{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            height: 100%;
+        }
+    
+        .item-footer{
+    
+            background-color: rgb(255, 255, 255);
+            padding: 0.50rem;
+            margin: 0.50rem;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            height: 100%;
+            width: 100%;
+        }
+        .icono-footer{
+            width: 3rem;
+            height: 3rem;
+            margin: 0.62rem;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .footer-texto {
+            font-weight: 700;
+            padding: 0.12rem;
+            font-size: .9em;
+            text-transform: uppercase;
+            
+        }
+    }
+}
+
+@media (max-width:732px){
+    .items-footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+    }
+
+    .item-footer{
+
+        background-color: rgb(255, 255, 255);
+        padding: 0.3125rem;
+        margin: 0.3125rem;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+
+        width: 100%;
+    }
+    .icono-footer{
+        width: 1rem;
+        height: 1rem;
+        margin: 0.31rem;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .icono-footer-px{
+        margin: 0.31rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-texto {
+        font-weight: 700;
+        padding: 0.12rem;
+        font-size: .8em;
+        text-transform: uppercase;
+
+    }
+}
+
+@media (max-width:685px){
+   
+    .items-footer {
+        flex-wrap: wrap;
+        .item-footer{
+            width: 100%;
+        }
+        .item-footer-xs{
+
+
+            border-left: none;
+            border-right: none;
+    } 
+        }
+}
+
